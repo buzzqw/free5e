@@ -61,3 +61,15 @@ jobs:
           config: './de-DE/cspell.config.yaml'
           suggestions: true
           strict: true
+  spellcheck-it-IT:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Italian cspell dictionary
+        run: npm install --no-save @cspell/dict-it-it
+      - uses: streetsidesoftware/cspell-action@v7
+        with:
+          files: './it-IT/**/*.md'
+          config: './it-IT/cspell.config.yaml'
+          suggestions: true
+          strict: true

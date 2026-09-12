@@ -1,0 +1,28 @@
+#### Interdizione alla morte
+<!-- markdownlint-disable link-image-reference-definitions -->
+[_metadata_:spell_name]:- "Death Ward"
+[_metadata_:spell_level]:- "4"
+[_metadata_:spell_school]:- "abjuration"
+[_metadata_:ritual]:- "false"
+[_metadata_:casting_time_amount]:- "1"
+[_metadata_:casting_time_unit]:- "action"
+[_metadata_:range]:- "Touch"
+[_metadata_:target]:- "One creature"
+[_metadata_:components_verbal]:- "true"
+[_metadata_:components_somatic]:- "true"
+[_metadata_:components_material]:- "false"
+[_metadata_:duration]:- "8 hours"
+[_metadata_:concentration]:- "false"
+[_metadata_:compared_to_wotc_srd_5.1]:- "mechanics_same_wording_different"
+[_metadata_:compared_to_a5e_srd]:- "mechanics_same_wording_different"
+<!-- markdownlint-disable-next-line no-emphasis-as-heading -->
+_Abiurazione di 4° livello_
+
+**Tempo di lancio:** 1 azione \
+**Gittata:** Tocco \
+**Componenti:** V, S \
+**Durata:** 8 ore
+
+La prima volta che i danni ridurrebbero una creatura a 0 punti ferita, la creatura scende invece a 1 punto ferita.
+Se un effetto dovesse uccidere istantaneamente il bersaglio senza infliggere danni, quell'effetto non si applica al bersaglio.
+L'incantesimo termina immediatamente dopo il verificarsi di una delle due condizioni.

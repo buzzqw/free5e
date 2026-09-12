@@ -9,6 +9,7 @@ config:
   line-length: false
   link-fragments: false
   no-inline-html: false
+  table-column-style: false
 
 # Fix any fixable errors
 fix: false

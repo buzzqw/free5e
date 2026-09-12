@@ -1,0 +1,52 @@
+name: Convert the Italian manuscripts into various formats
+run-name: Italian file conversion triggered on branch ${{ github.ref }} by ${{ github.actor }}...
+on:
+  push:
+    branches:
+      - main
+      - 'translation/**'
+      - 'translations/**'
+      - 'convert/**'
+
+jobs:
+  # These jobs remain skipped until the corresponding Italian main file exists.
+  convert-characters-codex-it-it:
+    if: ${{ hashFiles('it-IT/Characters_Codex/Characters_Codex.md') != '' }}
+    name: Convert the it-IT Character's Codex
+    uses: ./.github/workflows/convert-files.yml
+    with:
+      language: it-IT
+      date_format: '%d/%m/%Y'
+      book_directory: 'it-IT/Characters_Codex'
+      book_main_file: 'Characters_Codex'
+      spell_descriptions_path: it-IT/Characters_Codex/06_Spellcasting/Spell_Descriptions/
+
+  convert-monstrous-manuscript-it-it:
+    if: ${{ hashFiles('it-IT/Monstrous_Manuscript/Monstrous_Manuscript.md') != '' }}
+    name: Convert the it-IT Monstrous Manuscript
+    uses: ./.github/workflows/convert-files.yml
+    with:
+      language: it-IT
+      date_format: '%d/%m/%Y'
+      book_directory: 'it-IT/Monstrous_Manuscript'
+      book_main_file: 'Monstrous_Manuscript'
+
+  convert-conductors-companion-it-it:
+    if: ${{ hashFiles('it-IT/Conductors_Companion/Conductors_Companion.md') != '' }}
+    name: Convert the it-IT Conductor's Companion
+    uses: ./.github/workflows/convert-files.yml
+    with:
+      language: it-IT
+      date_format: '%d/%m/%Y'
+      book_directory: 'it-IT/Conductors_Companion'
+      book_main_file: 'Conductors_Companion'
+
+  convert-migration-guide-it-it:
+    if: ${{ hashFiles('it-IT/Migration_Guide/5e_Migration_Guide.md') != '' }}
+    name: Convert the it-IT 5e to Free5e Migration Guide
+    uses: ./.github/workflows/convert-files.yml
+    with:
+      language: it-IT
+      date_format: '%d/%m/%Y'
+      book_directory: 'it-IT/Migration_Guide'
+      book_main_file: '5e_Migration_Guide'

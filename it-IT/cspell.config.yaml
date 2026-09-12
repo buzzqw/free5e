@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+version: "0.2"
+import:
+  - '@cspell/dict-it-it/cspell-ext.json'
+language: it-IT
+allowCompoundWords: true
+dictionaryDefinitions:
+  - name: free5e
+    path: ./dictionary.txt
+    addWords: true
+dictionaries:
+  - free5e
+ignoreRegExpList:
+  - "/<!--[\\s\\S]*?-->/g"
+  - "/^---[\\s\\S]*?^---/gm"
+  - "/^\\[_metadata_:.*$/gm"
+  - "/\\]\\([^)]*\\)/g"
+  - "/<[^>]+>/g"
+  - "/\\{#[^}]*\\}/g"
+  - "/`[^`]*`/g"
+  - "/\\b[\\p{L}]+['’][\\p{L}\\d]+\\b/gu"
+ignorePaths:
+  - "README.md"
+  - "repository_study.md"
+  - "translation_notes.md"
