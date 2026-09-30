@@ -479,3 +479,7 @@ yarn.lock
 
 # macOS
 **/Icon
+
+# Python cache
+__pycache__/
+*.py[cod]

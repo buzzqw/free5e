@@ -1,5 +1,9 @@
 # Note legali
 
+<!-- markdownlint-disable MD024 -->
+<!--notitle-->
+## Note legali
+
 Quest'opera include materiale tratto dall'A5E System Reference Document (A5ESRD) di EN Publishing, disponibile su [A5ESRD.com](https://A5ESRD.com), basato su Level Up: Advanced 5th Edition, disponibile su [www.levelup5e.com](https://www.levelup5e.com).
 L'A5ESRD è distribuito con la licenza Creative Commons Attribution 4.0 International, disponibile all'indirizzo [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode).
 

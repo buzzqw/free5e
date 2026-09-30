@@ -1,0 +1,36 @@
+Nel repository `/home/azanzani/free5e` prosegui la traduzione italiana del Character's Codex.
+  Traduci il prossimo file non iniziato indicato in `it-IT/translation_status.csv`:
+
+
+  Prima di modificare:
+  1. Leggi `it-IT/translation_status.csv`.
+  2. Leggi `it-IT/glossary.csv`.
+  3. Leggi `it-IT/translation_notes.md`.
+  4. Leggi integralmente il file sorgente.
+  5. Controlla le traduzioni già presenti di Adepto, Bardo e Chierico per mantenere stile e terminologia.
+
+  Durante la traduzione:
+  - Scrivi in italiano naturale e coerente con il glossario.
+  - Mantieni struttura Markdown, livelli dei titoli, tabelle, elenchi, codice inline, link, percorsi relativi e anchor tecnici.
+  - Non tradurre nomi di file o identificatori degli anchor.
+  - Mantieni gli elementi HTML come `<span class="spell">` e `<span class="condition">`.
+  - Traduci i testi visibili dei link.
+  - Usa i termini già approvati nel glossario, senza introdurre varianti.
+  - Non modificare file estranei al lavoro.
+  - Non eliminare né sovrascrivere modifiche non create durante questa attività.
+  - Non fare commit.
+
+  Dopo la traduzione:
+  1. Aggiorna la riga corrispondente in `it-IT/translation_status.csv` da `non iniziato` a `tradotto`, usando la nota `Traduzione iniziale
+  completata; da revisionare`.
+  2. Aggiungi una breve nota in `it-IT/translation_notes.md` con le decisioni terminologiche rilevanti e gli eventuali riferimenti ancora non
+  tradotti.
+  3. Verifica che il file destinazione esista.
+  4. Verifica la formattazione con `git diff --check`.
+  5. Controlla che non siano rimasti frammenti inglesi accidentali.
+  6. Controlla che link, anchor e marcatori HTML siano coerenti con il file sorgente.
+  7. Se `cspell` o `markdownlint` non sono installati, dichiaralo senza installare dipendenze automaticamente.
+
+  Alla fine fornisci un riepilogo conciso dei file modificati e dei controlli eseguiti.
+
+  voglio pero' che usando subagents traduci piu' file, almeno 20, usando sub agents non dovresti riempire il contesto

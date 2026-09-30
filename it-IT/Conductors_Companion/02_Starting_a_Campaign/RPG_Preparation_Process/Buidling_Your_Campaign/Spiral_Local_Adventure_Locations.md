@@ -2,7 +2,7 @@
 
 Man mano che la campagna si espande a spirale, i personaggi verranno a conoscenza di luoghi per avventure locali.
 Inserisci tre luoghi di questo tipo nelle aree vicine al luogo di partenza.
-Se hai bisogno di aiuto per completare un luogo per avventure, puoi trovare molte idee nei generatori di idee per avventure dell'[Appendice B](#Adventure_Ideas_Generators_adventure_ideas_generators).
+<!--Se hai bisogno di aiuto per completare un luogo per avventure, puoi trovare molte idee nei generatori di idee per avventure dell'[Appendice B](#Adventure_Ideas_Generators_adventure_ideas_generators).-->
 
 | 1d20 | Luoghi per avventure |
 |:----:|:--------------------|

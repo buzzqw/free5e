@@ -1,5 +1,8 @@
 # Come si gioca
 
+<!--notitle-->
+## Come si gioca
+
 Giocare a un gioco di ruolo da tavolo (TTRPG) significa soprattutto immaginare un personaggio in un mondo fantastico e usare i dadi per determinare cosa accade.
 Ecco come funziona:
 
