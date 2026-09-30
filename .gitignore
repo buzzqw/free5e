@@ -483,3 +483,6 @@ yarn.lock
 # Python cache
 __pycache__/
 *.py[cod]
+
+# Istruzioni locali per la sincronizzazione upstream
+per-aggiornamenti-upstream.md
